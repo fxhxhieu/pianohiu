@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://i.pinimg.com/736x/e8/2d/aa/e82daac84b38a41be20b49bd8f4c6e40.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            overflow: hidden; /* Đảm bảo không có thanh cuộn */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            color: #333;
+        }
+
+        .info {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .info a:hover {
+            text-decoration: underline;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Nốt nhạc chạy nhảy lung tung */
+        .note {
+            position: absolute;
+            font-size: 50px;
+            color: #FFD700;
+            animation: jump 2s ease-in-out infinite, move 4s linear infinite;
+        }
+
+        @keyframes jump {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            25% {
+                transform: translate(-50%, -60%) scale(1.2);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            75% {
+                transform: translate(-50%, -40%) scale(1.2);
+            }
+        }
+
+        @keyframes move {
+            0% {
+                top: 50%;
+                left: 50%;
+            }
+            25% {
+                top: 20%;
+                left: 80%;
+            }
+            50% {
+                top: 80%;
+                left: 20%;
+            }
+            75% {
+                top: 10%;
+                left: 10%;
+            }
+            100% {
+                top: 50%;
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Liên Hệ Với Tôi</h1>
+        
+        <div class="info">
+            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/fx.hoxuanhieu/" target="_blank">https://www.facebook.com/fx.hoxuanhieu/</a></p>
+            <p><strong>Email:</strong> <a href="mailto:fxhxhieu@gmail.com">fxhxhieu@gmail.com</a></p>
+            <p><strong>Số điện thoại:</strong> 0386522547</p>
+        </div>
+
+        <div class="footer">
+            <p>Chúc bạn một ngày tốt lành!</p>
+            <p><a href="mailto:fxhxhieu@gmail.com">Email tôi</a></p>
+        </div>
+    </div>
+
+    <div class="note">🎵</div>
+
+</body>
+</html>

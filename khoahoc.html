@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Piano Online</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://i.pinimg.com/736x/5a/97/a5/5a97a51de8ca1ad9631b189b5ecd1646.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+        }
+
+        /* Thanh menu */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+
+        /* Phần tiêu đề khóa học */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero p {
+            font-size: 24px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Phần khóa học */
+        .courses {
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .courses h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .courses .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .courses .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .courses .card:hover {
+            transform: scale(1.05);
+        }
+
+        .courses .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .courses .card h3 {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .courses .card a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .courses .card a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Thanh menu -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html">Học Piano</a> <!-- Quay lại trang chủ -->
+        </div>
+        <div class="menu">
+            <a href="home.html">Trang Chủ</a>
+            <a href="#">Khóa Học</a>
+            <a href="#">Tin Tức</a>
+            <a href="#">Liên Hệ</a>
+        </div>
+    </div>
+
+    <!-- Phần tiêu đề khóa học -->
+    <div class="hero">
+        <h1>Khóa Học Piano Online</h1>
+        <p>Khám phá các khóa học piano với những bài học video thú vị và dễ hiểu, phù hợp với mọi trình độ!</p>
+    </div>
+
+    <!-- Phần khóa học -->
+    <div class="courses">
+        <h2>Các Khóa Học Nổi Bật</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://i.pinimg.com/236x/f4/0a/b0/f40ab064542a709e083f08bcfc5c9229.jpg" alt="Khóa học 1">
+                <h3>Khóa Học 1: Giới Thiệu Cơ Bản</h3>
+                <a href="https://www.youtube.com/watch?v=SFpXwAbwP3Q&list=PLHojBQ5KOx5qiBFePy9OsgZH-s1LHqac1&index=1&pp=iAQB" target="_blank">Xem Bài Học</a>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/236x/f4/0a/b0/f40ab064542a709e083f08bcfc5c9229.jpg" alt="Khóa học 2">
+                <h3>Khóa Học 2: Học Đọc Nhạc</h3>
+                <a href="https://www.youtube.com/watch?v=0ww1igyofmw&list=PLHojBQ5KOx5qiBFePy9OsgZH-s1LHqac1&index=2&pp=iAQB" target="_blank">Xem Bài Học</a>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/236x/f4/0a/b0/f40ab064542a709e083f08bcfc5c9229.jpg" alt="Khóa học 3">
+                <h3>Khóa Học 3: Thực Hành Đầu Tiên</h3>
+                <a href="https://www.youtube.com/watch?v=sm6_4q7OZE0&list=PLHojBQ5KOx5qiBFePy9OsgZH-s1LHqac1&index=3&pp=iAQB" target="_blank">Xem Bài Học</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
